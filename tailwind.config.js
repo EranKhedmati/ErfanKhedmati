@@ -14,6 +14,9 @@ module.exports = {
         secondary: "#484848"
       }
     },
+    fontFamily: {
+      sans: ["Roboto", "sans-serif"]
+    },
   },
   plugins: [],
 }

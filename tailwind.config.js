@@ -2,7 +2,8 @@
 module.exports = {
   content: [
     "./src/App.js",
-    "./src/components/Header.js"
+    "./src/components/Header.js",
+    "./src/components/Hero.js"
   ],
   theme: {
     extend: {

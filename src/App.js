@@ -1,9 +1,11 @@
+// import Components
+import Header from "./components/Header"
 
 function App() {
   return (
-    <h1 className="text-3xl text-dark font-sans">
-    Hello world
-  </h1>
+    <div className="font-sans">
+      <Header />
+    </div>
   );
 }
 

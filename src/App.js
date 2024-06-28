@@ -2,6 +2,7 @@
 import Header from "./components/Header"
 import Hero from "./components/Hero"
 import Showcase from "./components/Showcase";
+import Blog from "./components/Blog";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Hero />
       <Showcase />
+      <Blog />
     </div>
   );
 }

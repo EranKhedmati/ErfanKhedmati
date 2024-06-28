@@ -3,7 +3,7 @@ import Banner from "../images/banner.png"
 function Showcase() {
     return (
         // Ccontainer
-        <div className="w-full flex justify-center mt-20 mb-20 px-0 sm:px-10 lg:p-20">
+        <div className="w-full flex justify-center mt-20 px-0 sm:px-10 lg:p-20">
             {/* Grid box */}
             <div className="relative grid grid-cols-2 items-center gap-x-10 px-5 py-10 lg:px-10 lg:py-0 lg:p-0 max-w-[700px] lg:max-w-[1200px]">
                 <img src={Banner} className="absolute  -z-10 object-cover sm:rounded-lg lg:static lg:z-0 lg:rounded-none w-full h-full" />

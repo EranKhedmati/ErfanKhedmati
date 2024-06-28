@@ -5,7 +5,7 @@ import PosterTwo from "../images/poster-2.png";
 function Blog() {
     return (
         // Container
-        <div className="tracking-wider px-5 sm:px-10 mb-20">
+        <div className="tracking-wider px-5 mt-20 sm:px-10 mb-20">
             <div className="boder border-b-[1px] border-secondary/20 mx-10 lg:mx-32">
                 <h1 className="text-center pb-1 text-xl lg:text-2xl font-medium">Last Blogs</h1>
             </div>

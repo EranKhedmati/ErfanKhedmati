@@ -35,9 +35,9 @@ function Header() {
             <img src={iconMenu} onClick={handleMenu} className='w-8 sm:w-12 lg:hidden' />
             {/* navbar(Small screens) */}
 
-            {menu ? (<div onClick={handleMenu} className="absolute w-full h-full bg-dark/50 top-0 left-0 flex justify-end">
+            {menu ? (<div onClick={handleMenu} className="fixed w-full h-full bg-dark/50 top-0 left-0 flex justify-end z-10">
                 {/* Stop propagation for ul for handle close menu */}
-                <ul onClick={e => e.stopPropagation()} className="flex flex-col gap-5 bg-white top-0 right-0 h-full w-2/3 max-w-80 pt-20 p-5 ">
+                <ul onClick={e => e.stopPropagation()} className="flex flex-col gap-5 bg-white top-0 right-0 h-full w-2/3 max-w-80 pt-20 p-5">
                     <li className='absolute top-5 right-5 cursor-pointer'>
                         <button onClick={handleCloseMenu}>
                             <img src={iconClose} />

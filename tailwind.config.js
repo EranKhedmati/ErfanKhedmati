@@ -5,7 +5,8 @@ module.exports = {
     "./src/components/Header.js",
     "./src/components/Hero.js",
     "./src/components/Showcase.js",
-    "./src/components/Blog.js"
+    "./src/components/Blog.js",
+    "./src/components/Footer.js"
   ],
   theme: {
     extend: {

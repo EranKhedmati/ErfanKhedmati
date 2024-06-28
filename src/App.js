@@ -3,6 +3,7 @@ import Header from "./components/Header"
 import Hero from "./components/Hero"
 import Showcase from "./components/Showcase";
 import Blog from "./components/Blog";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Showcase />
       <Blog />
+      <Footer />
     </div>
   );
 }
